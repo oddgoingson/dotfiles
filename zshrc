@@ -11,9 +11,15 @@ export LSCOLORS=GxFxCxDxBxegedabagaced
 # create aliases
 
 alias ca="clear"
-alias c="clear; ls -lFh"
+
+# basic
+# alias c="clear; ls -lFh"
+# alias lsa="ls -lAFh"
+
+# setup
+alias c="clear; ls -lAFh"
+
 alias ls="ls -Fh"
-alias lsa="ls -lAFh"
 alias e="exit"
 alias rc="vim /Users/oddgoingson/.zshrc"
 alias de="conda deactivate"
